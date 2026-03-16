@@ -14,8 +14,8 @@ modules:
   # --- 预设模块 ---
   # 将值设为 true 来启用模块，设为 false 则禁用
   QAuxiliary: true
-  XAutoDaily: true
-  TSBattery: true
+  XAutoDaily: false
+  TSBattery: false
   QQCleaner: false
 
   # --- 自定义模块 ---
@@ -38,8 +38,8 @@ modules:
 QQ:
   custom:
     enable: false # 选择是否修补自定义版本 QQ
-    version: "9.1.52" # 自定义QQ版本号（影响最终修补后的文件名）
-    url: "https://downv6.qq.com/qqweb/QQ_1/android_apk/Android_9.1.52_64.apk"
+    version: "9.2.66" # 自定义QQ版本号（影响最终修补后的文件名）
+    url: "https://dw.uptodown.net/dwn/PfWrT4plp5abzU_seEzrDM0vWU8-gWr9puDUy5MKFe6VWNKMWPErvQSTeCemW-QldTrPoESTxIfP_C4_a_H6Z3FqhB9P-lykJkByRa-g6Df-oO1-kSyXLCpQXE3Z8mQo/Du2w5yKTnwfYW0z1Ih3vEPEj0lDOOACvii5e2wLDMKqCpK9nX-ryR9LIUKYIgQO81K7TeTNonXnXNu6PmsrOkWQs4rfoiYIlpcgX6Liggs3PkGlN7if4iiiUvMGV1ozv/yIRd5V4JhIsS0uyHK4HBqfat729vxJr5cOGIbt3mw-09fPI1yATxMSmAAnEacRoz/qq-9-2-66.apk"
     # 自定义 QQ 版本下载链接（确保此链接可直接下载文件）
     # 建议使用 Arm64 安装包，否则需手动更改 Acion Workflow 配置文件中 QAuxiliary 的下载文件名后缀
 
